@@ -13,12 +13,18 @@ const AmruthamApp = () => (
   <>
     <NavBar />
     <Profile />
-    <AboutMe />
-    <Specialization />
-    <Treatment />
-    <WorkExperience />
-    <Review />
-    <Appointment />
+    <div className="main-container">
+      <div className="main-left-container">
+        <AboutMe />
+        <Specialization />
+        <Treatment />
+        <WorkExperience />
+        <Review />
+      </div>
+      <div className="main-right-container">
+        <Appointment />
+      </div>
+    </div>
   </>
 )
 

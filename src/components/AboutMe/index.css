@@ -1,0 +1,70 @@
+.about-container {
+  margin: 50px;
+  border: solid 2px gray;
+  border-radius: 20px;
+}
+
+.about-heading-container {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(270.04deg, #fbfcfb 0.05%, #f4f7ec 99.98%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 0 20px;
+}
+
+.about-heading {
+  font-size: 20px;
+}
+
+.about-follow-button {
+  width: 100px;
+  border-radius: 14px;
+  margin: 10px;
+  padding: 6px;
+  background-color: transparent;
+}
+
+.about-card-container {
+  padding: 20px;
+}
+
+/* .about-me-description-container {
+  
+} */
+
+.about-me-description {
+  color: gray;
+  font-size: 20px;
+}
+
+.about-hr {
+  width: 70%;
+}
+
+.about-read-more {
+  text-align: right;
+}
+
+.about-me-language-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lang-item {
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  padding: 10px;
+  background: #2e37a40a;
+  border-radius: 10px;
+}
+
+.about-me-social-media-handles {
+  margin: 20px;
+  width: 50px;
+}
+
+.about-me-social-media-container {
+  display: flex;
+}

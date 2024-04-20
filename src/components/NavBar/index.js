@@ -22,10 +22,10 @@ const NavBar = () => (
         </div>
       </div>
       <div>
-        <button type="button" className="profile-login-button">
+        <button type="button" className="profile-button profile-login-button">
           Login
         </button>
-        <button type="button" className="profile-sign-up-button">
+        <button type="button" className="profile-button profile-sign-up-button">
           Sign-up
         </button>
       </div>

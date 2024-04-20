@@ -1,7 +1,67 @@
+.profile-bg-container {
+  width: 90vw;
+  margin-top: 60px;
+}
+
 .profile-container {
   display: flex;
+  justify-content: center;
+  margin-left: 10vw;
+  padding-top: 20px;
+  padding: 20px;
+  background-color: #fffbf2;
+  border: solid gray 1px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.profile-left-card {
+  width: 30vw;
 }
 
 .img {
-  width: 50px;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.profile-center-card {
+  width: 40vw;
+  display: flex;
+}
+
+.profile-cards {
+  padding: 20px;
+}
+
+.title {
+  color: green;
+  font-size: 16px;
+}
+
+.numbers {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.profile-right-card {
+  width: 30vw;
+  padding: 20px;
+  margin: 30px;
+}
+
+.appointment-button {
+  width: 250px;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 6px;
+
+  font-size: 20px;
+  background-color: green;
+  color: white;
 }
